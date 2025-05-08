@@ -1,4 +1,4 @@
-import streamlit as st
+'''import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -74,8 +74,7 @@ plt.legend()
 st.pyplot(plt)
 '''
 
-# Save to a file
-file_path = "/mnt/data/natural_convection_lab.py"
-with open(file_path, "w") as f:
-    f.write(streamlit_code)
-
+# Save to corrected file
+corrected_file_path = "/mnt/data/natural_convection_lab_corrected.py"
+with open(corrected_file_path, "w") as f:
+    f.write(streamlit_code_corrected)
